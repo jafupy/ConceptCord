@@ -1,0 +1,99 @@
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+:root {
+  --HSL-server-icon-size: 55px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 12px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+}
+
+
+.scroller-3X7KbA .none-2-_0dP .scrollerBase-_bVAAt {
+  margin-top: 70px!important;
+}
+.membersGroup-2eiWxl {
+  background: linear-gradient(120deg, #54414c 0%, #42424a 50%);
+  border-radius: 5px;
+  width: 220px;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 6px;
+  padding-right: px;
+}
+.container-YkUktl {
+      content: '';
+      background: #181a1d;
+      border-radius: 9px;
+      margin: 8px;
+}
+
+}
+.searchBar-3TnChZ, .header-3OsQeK {
+  box-shadow: none;
+}
+.tabBody-2dgbAs:before {
+display: none;
+}
+.content-1jQy2l:before {
+display: none;
+}
+.container-ZMc96U {
+  height: 65px;
+}
+.title-17SveM {
+  font-size: 18px!important;
+}
+.headerText-1qIDDT::before {
+ content: "→ ";
+}
+body #app-mount .guilds-2JjMmN [class*=pill] {
+  top: unset !important;
+  bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+}
+body #app-mount .guilds-2JjMmN [class*=pill] span {
+  border-radius: 4px 0 0 4px;
+}
+.content-2a4AW9{
+  height: 1050px !important;
+}
+
+/* Minified Search Bar */ 
+
+:root {
+    --transitionspeed: 0.25s;
+}
+
+.search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {width: 27px; transition: var(--transitionspeed); background-color: transparent;}
+.search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {width: 170px; background-color: var(--background-tertiary);}
+.search-2Mwzzq:not(.open-1F8u2c) .iconContainer-1RqWJj {transform: scale(1.3); transition: var(--transitionspeed);}
+.search-2Mwzzq:not(.open-1F8u2c):hover .iconContainer-1RqWJj {transform: scale(1);}
+.search-2Mwzzq:not(.open-1F8u2c) .icon-18rqoe {color: var(--text-normal);}
+.search-2Mwzzq:not(.open-1F8u2c):hover .icon-18rqoe {color: var(--text-muted);}
+
+/* Unclamp the About Me section, so it's not limited to just 6 lines. (normally it cuts off at 6 and adds a ...) */
+.clamped-2ZePhX{
+    -webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
+    max-height:112px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+.clamped-2ZePhX::-webkit-scrollbar {
+  width: 10px;
+  height: 15px;
+}
+.clamped-2ZePhX::-webkit-scrollbar-track {
+  border-radius: 10px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
+  background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
+}
+.clamped-2ZePhX::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #646464, #646464); /* Edit this to whatever color/colors you'd like*/
+  border-radius: 5px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
+}
+
+.sidebar-1tnWFu {
+    width: 350px;
+}
+
+.bannerImage-ubW8K- img {
+    width: 350px
+}
