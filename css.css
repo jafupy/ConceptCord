@@ -9,6 +9,7 @@
 .scroller-3X7KbA .none-2-_0dP .scrollerBase-_bVAAt {
   margin-top: 70px!important;
 }
+/* Role Group Box - Gradient */
 .membersGroup-2eiWxl {
   background: linear-gradient(120deg, #54414c 0%, #42424a 50%);
   border-radius: 5px;
@@ -20,15 +21,11 @@
   padding-top: 8px;
   padding-right: 15px;
 }
+/* User Profile */
 .panels-3wFtMD {
   background-color: transparent;
 }
-.container-YkUktl {
-      content: '';
-      background: #181a1d;
-      border-radius: 8px;
-      margin: 10px;
-}
+/* title bar color */
 .bg-1QIAus {
   background-color: #292B2F!important;
 }
@@ -289,4 +286,22 @@ body #app-mount .guilds-2JjMmN [class*=pill] span {
 }
 .sidebar-nqHbhN .item-3XjbnG:before {
   transition: all 0.20s;
+}
+.scroller-WSmht3 {
+  padding-right: 4% !important;
+  padding-left: 4%;
+}
+.privateChannelsHeaderContainer-1UWASm{
+  padding: 18px 8px 4px 0px;
+}
+.avatarWrapper-1B9FTW{
+  width: 100%;
+}
+.circleIconButton-1VxDrg > .circleIcon-3489FI {
+  transition: .6s;
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo > .circleIcon-3489FI{
+  background: transparent;
+  transform: rotate(180deg)!important;
+  transition: .5s;
 }
