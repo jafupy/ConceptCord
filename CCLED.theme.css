@@ -1,8 +1,41 @@
+/**
+ * @name ConceptCord LED
+ * @version 1.0.0
+ * @author Concept Central
+ * @authorLink https://www.conceptcentralstore.com/
+ * @description Imagine the new discord.
+ * @website https://github.com/JaFu-py/ConceptCord
+ * @source https://github.com/JaFu-py/ConceptCord/blob/main/CCMain.css
+ * @invite 2Jwh2nS
+*/
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+@import url('https://fonts.googleapis.com/css2?family=Urbanist');
+@import url('https://codedotspectra.github.io/themes/core/custom-font.css');
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 :root {
+  --accentcolor: 114,137,218;
+  --accentcolor2: 255,115,250;
+  --linkcolor: 0,176,244;
+  --mentioncolor: 250,166,26;
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 185,185,185;
+  --textdark: 140,140,140;
+  --textdarker: 115,115,115;
+  --textdarkest: 80,80,80;
+  --font: 0;
+  --backgroundaccent: 22,22,22;
+  --backgroundprimary: 0,0,0;
+  --backgroundsecondary: 0,0,0;
+  --backgroundsecondaryalt: 27,27,27;
+  --backgroundtertiary: 10,10,10;
+  --backgroundfloating: 12,12,12;
+  --settingsicons: 0;
   --HSL-server-icon-size: 50px;  /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
   --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+  --customFont: 'Urbanist';
 }
 
 
