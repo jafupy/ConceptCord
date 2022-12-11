@@ -1,0 +1,331 @@
+/**
+ * @name ConceptCord Red
+ * @version 1.0.0
+ * @author Concept Central
+ * @authorLink https://www.conceptcentralstore.com/
+ * @description Imagine the new discord.
+ * @website https://github.com/JaFu-py/ConceptCord
+ * @source https://github.com/JaFu-py/ConceptCord/blob/main/CCMain.css
+ * @invite 2Jwh2nS
+*/
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+@import url('https://fonts.googleapis.com/css2?family=Urbanist');
+@import url('https://codedotspectra.github.io/themes/core/custom-font.css');
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+:root {
+  --accentcolor: 114,137,218;
+  --accentcolor2: 255,115,250;
+  --linkcolor: 0,176,244;
+  --mentioncolor: 250,166,26;
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 185,185,185;
+  --textdark: 140,140,140;
+  --textdarker: 115,115,115;
+  --textdarkest: 80,80,80;
+  --font: 0;
+  --backgroundaccent: 106,68,61;
+  --backgroundprimary: 79,54,53;
+  --backgroundsecondary: 72,43,36;
+  --backgroundsecondaryalt: 23,14,14;
+  --backgroundtertiary: 61,27,19;
+  --backgroundfloating: 46,28,28;
+  --settingsicons: 0;
+  --HSL-server-icon-size: 50px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+  --customFont: 'Urbanist';
+}
+
+
+.scroller-3X7KbA .none-2-_0dP .scrollerBase-_bVAAt {
+  margin-top: 70px!important;
+}
+/* Role Group Box - Gradient */
+.membersGroup-2eiWxl {
+  background: linear-gradient(120deg, #54414c 0%, #42424a 50%);
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  margin-left: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  padding-right: 15px;
+}
+/* User Profile */
+.panels-3wFtMD {
+  background-color: transparent;
+}
+/* title bar color */
+.bg-1QIAus {
+  background-color: #292B2F!important;
+}
+.interactive-1vLZ_I.interactive-iyXY_x.linkButton-2NshQj  {
+  background-color: rgb(65, 64, 70);
+  background-size: 100%;
+}
+.searchBar-3TnChZ, .header-3OsQeK {
+  box-shadow: none;
+}
+.tabBody-2dgbAs:before {
+display: none;
+}
+.content-1jQy2l:before {
+display: none;
+}
+.container-ZMc96U {
+  height: 60px;
+}
+.title-17SveM {
+  font-size: 18px!important;
+}
+
+.headerText-1qIDDT::before {
+ content: "→ ";
+}
+body #app-mount .guilds-2JjMmN [class*=pill] {
+  top: unset !important;
+  bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+}
+body #app-mount .guilds-2JjMmN [class*=pill] span {
+  border-radius: 4px 0 0 4px;
+}
+.content-2a4AW9{
+  height: 1050px !important;
+}
+.sidebar-1tnWFu{
+  width: 25%;
+}
+.channel-1Shao0{
+  max-width: 100%;
+}
+.communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover{
+  background-color: #292B2F;
+}
+.bannerImage-ubW8K- {
+    width: 100%;
+}
+.bannerImg-2PzH6z {
+    min-height: -webkit-fill-available;
+    width: 100%;
+}
+/*member list count*/
+.membersGroup-2eiWxl {
+  background: linear-gradient(120deg, #54414c 0%, #42424a 50%);
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  margin-left: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  padding-right: 15px;
+}
+/*floating user controls*/
+.container-YkUktl {
+      content: '';
+      background: #181a1d;
+      border-radius: 8px;
+      margin: 10px;
+}
+.panels-3wFtMD {
+  background: transparent;
+}
+.interactive-1vLZ_I.interactive-iyXY_x.linkButton-2NshQj  {
+  background-color: rgb(65, 64, 70);
+  background-size: 100%;
+}
+/*no shadow under channel name*/
+.searchBar-3TnChZ, .header-3OsQeK {
+  box-shadow: none;
+}
+.tabBody-2dgbAs:before {
+display: none;
+}
+.content-1jQy2l:before {
+display: none;
+}
+/*bigger channel name*/
+.container-ZMc96U {
+  height: 60px;
+}
+.title-17SveM {
+  font-size: 18px!important;
+}
+/*chatbox recolour*/
+.scrollableContainer-15eg7h {
+  background: #2f3136;
+}
+/*pinned dms and dms icon*/
+.privateChannelsHeaderContainer-1UWASm .headerText-1qIDDT::before {
+ content: "→ ";
+}
+.pinnedChannelsHeaderContainer-89Gjv4 .headerText-1qIDDT::before {
+  content: "⋆ ";
+  zoom: 1.2;
+}
+/*reversing pill for the horizontal server list*/
+body #app-mount .guilds-2JjMmN [class*=pill] {
+  top: unset !important;
+  bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+}
+body #app-mount .guilds-2JjMmN [class*=pill] span {
+  border-radius: 4px 0 0 4px;
+}
+.content-2a4AW9{
+  height: 1050px !important;
+}
+/*custom min max close button animation*/
+.theme-dark .winButtonClose-3Q8ZH5 {
+  transition: .6s;
+}
+.theme-dark .winButtonClose-3Q8ZH5:hover {
+  background: transparent;
+  transform: rotate(90deg)!important;
+  transition: .5s;
+}
+.theme-dark .winButtonMinMax-3RsPUg:nth-child(3) {
+  transition: .6s;
+}
+.theme-dark .winButtonMinMax-3RsPUg:nth-child(3):hover {
+  background: transparent;
+  transform: rotate(90deg)!important;
+  transition: .5s;
+}
+.theme-dark .winButtonMinMax-3RsPUg:nth-child(2n) {
+  transition: .6s;
+}
+.theme-dark .winButtonMinMax-3RsPUg:nth-child(2n):hover {
+  background: transparent;
+  transform: rotate(180deg)!important;
+  transition: .5s;
+}
+ /* Settings/Deafen/Mute Buttons Animated */
+.button-12Fmur:hover .contents-3ca1mk {
+    animation:UserModalButtons 0.5s normal ease;
+}
+@keyframes UserModalButtons {
+    0% {transform:translateY(0px);}
+    50% {transform:translateY(-5px);}
+    100% {transform:translateY(0px);}
+}
+/* colored links */
+/* YouTube */
+[href*="youtu.be"],
+[href*="youtube.com"] {
+    color:#c4302b !important;
+}
+/* Twitch */
+[href*="twitch.tv"] {
+    color:#b700ff !important;
+}
+/* Discord */
+[href*="discord.com/channels/"] {
+    color:#7289da !important;
+}
+[href*="discord.com/channels/"]::before {
+    content:'Jump to Message : ';
+    font-size:16px;
+    color: #603cff;
+}
+[href*="betterdiscord.app/"],
+[href*="discord.gg/"],
+[href*="discord.com/"],
+[href*="media.discordapp.net/"],
+[href*="cdn.discordapp.com/"] {
+    color:#7289da !important;
+}
+/* Twitter */
+[href*="twitter.com/"]{
+    color:#00acee !important;
+}
+/* GitHub */
+[href*="github.com"]{
+    color:#00f0a8 !important;
+}
+/* Imgur */
+[href*="i.imgur.com"]{
+    color:#89C623 !important;
+}
+/* Steam */
+[href*="store.steampowered.com"],
+[href*="https://s.team"],
+[href*="steamcommunity.com/"] {
+    color:#1b2838 !important; 
+}
+/* Spotify */
+[href*="spotify.com"],
+[href*="open.spotify.com"]{
+    color:#13B94A !important; 
+}
+/* SoundCloud */
+[href*="soundcloud.com"]{
+    color:#ff5500 !important; 
+}
+/*no text in share screen and video button*/
+.actionButtons-2vEOUh .contents-3ca1mk {
+    font-size: 0;   
+}
+.actionButtons-2vEOUh .withText-2iJppd {
+    margin: 0;
+}
+@keyframes wigglewigglewigglebombombombombom2 {
+    0%   {transform: rotate(2.1deg);}
+    50%  {transform: rotate(-2.1deg);}
+    100% {transform: rotate(2.1deg);}
+}
+/*user setting icon spin*/
+.button-12Fmur:nth-last-child(1):hover path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"]{
+  animation: Settings 9s infinite linear;
+  transform-origin: center;
+}
+@keyframes Settings {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+/*floating ping*/
+.numberBadge-37OJ3S {
+  animation: Ping 2.5s normal ease infinite;
+}
+@keyframes Ping {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/*flickering user setting icons*/
+.sidebar-nqHbhN .item-3XjbnG:hover:before {
+  transition: all 0.20s;
+  transform: rotateY(180deg);
+}
+.sidebar-nqHbhN .item-3XjbnG:before {
+  transition: all 0.20s;
+}
+.scroller-WSmht3 {
+  padding-right: 4% !important;
+  padding-left: 4%;
+}
+.privateChannelsHeaderContainer-1UWASm{
+  padding: 18px 8px 4px 0px;
+}
+.avatarWrapper-1B9FTW{
+  width: 100%;
+}
+.circleIconButton-1VxDrg > .circleIcon-3489FI {
+  transition: .6s;
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo > .circleIcon-3489FI{
+  background: transparent;
+  transform: rotate(180deg)!important;
+  transition: .5s;
+}
+.messagesWrapper-RpOMA3, .scrollerContent-2SW0kQ{
+    display:flow-root!important;
+}
